@@ -1,5 +1,5 @@
 {
-  "name": "ko.arrays",
+  "name": "knockout arrays",
   "version": "0.0.1",
   "dependencies": {
     "knockout": "~3.0.0"

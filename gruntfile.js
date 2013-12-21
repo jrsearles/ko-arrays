@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 			},
 			build: {
 				files: {
-					"dist/ko.arrays.min.js": "src/ko.arrays.js"
+					"dist/knockout-arrays.min.js": "src/knockout-arrays.js"
 				}
 			}
 		},
@@ -45,5 +45,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 
 	grunt.registerTask("tests", ["jshint","jasmine"]);
-	grunt.registerTask("default", ["jshint","jasmine","uglify"]);
+	grunt.registerTask("default", ["uglify"]);
 };
